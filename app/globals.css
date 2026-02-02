@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-corporate-black: #0A0A0A;
+  /* Matte Obsidian */
+  --color-electric-cyan: #8B5CF6;
+  /* Radiant Violet - replacing primary */
+  --color-vivid-violet: #8B5CF6;
+  /* Radiant Violet */
+  --color-cyber-lime: #8B5CF6;
+  /* Unified Primary - Radiant Violet for consistency, unless 'Action' needs differentiation, but user said 'Use Radiant Violet for... CTAs' */
+  --color-ice-silver: #E2E8F0;
+  /* Secondary Text */
+
+  --font-cairo: var(--font-cairo);
+
+  --color-background: var(--color-corporate-black);
+  --color-foreground: #ededed;
+}
+
+/* Custom Utilities if needed later, v4 handles most via theme */
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
